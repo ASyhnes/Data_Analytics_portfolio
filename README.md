@@ -8,8 +8,9 @@ Dans certaines situations, il peut être nécessaire de compter le nombre d'obje
 
 Pour comptabiliser le nombre d'objets nuls dans une colonne spécifique, vous pouvez utiliser la requête SQL suivante :
 
-
-#SUM(CASE WHEN X.XXXXXX IS NULL THEN 1 ELSE 0 END) AS sommeDesObjetNULL
+```sql
+SUM(CASE WHEN X.XXXXXX IS NULL THEN 1 ELSE 0 END) AS sommeDesObjetNULL
+```
 
 
 
@@ -37,5 +38,6 @@ SELECT p.nom, v.total_vendu
 FROM VentesParProduit v
 JOIN produits p ON v.produit_id = p.id
 ORDER BY v.total_vendu DESC
-LIMIT 10;
+LIMIT 10; 
+```
 
