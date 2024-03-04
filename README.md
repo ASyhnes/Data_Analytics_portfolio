@@ -8,8 +8,8 @@ Dans certaines situations, il peut être nécessaire de compter le nombre d'obje
 
 Pour comptabiliser le nombre d'objets nuls dans une colonne spécifique, vous pouvez utiliser la requête SQL suivante :
 
-```sql
-SUM(CASE WHEN X.XXXXXX IS NULL THEN 1 ELSE 0 END) AS sommeDesObjetNULL
+
+#SUM(CASE WHEN X.XXXXXX IS NULL THEN 1 ELSE 0 END) AS sommeDesObjetNULL
 
 # Astuces et Mémos SQL
 
