@@ -11,7 +11,7 @@ Pour comptabiliser le nombre d'objets nuls dans une colonne spécifique, vous po
 
 #SUM(CASE WHEN X.XXXXXX IS NULL THEN 1 ELSE 0 END) AS sommeDesObjetNULL
 
-# Astuces et Mémos SQL
+
 
 ## Utilisation des Common Table Expressions (CTE) pour Simplifier les Requêtes Complexes
 
